@@ -1,0 +1,48 @@
+body {
+    background-color: #3037fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px grey;
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 800%;
+}
+h3 {
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+.joke {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+.btn {
+    background-color: #3037fa;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px grey;
+    font-size: 24px;
+    padding: 14px 40px;
+    cursor: pointer;
+}
+.btn:focus {
+    outline: 0;
+}
+.btn:active {
+    transform: scale(0.98);
+}
